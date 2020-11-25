@@ -1,0 +1,12 @@
+h1{background-color: rgb(18, 185, 185)}
+*{border:solid;
+background-color:hsla(0, 0%, 75%, 0.424)}
+.heading{border:solid;color: rgb(87, 40, 216);display: flex;justify-content:space-between;}
+
+.Games{border:solid;color: rgba(132, 192, 248, 0.746);display: flex;justify-content:center;position: relative;}
+
+a:link{color: rgb(255, 255, 255);}
+a:visited img{color: rgb(255, 255, 255);}
+.Trex p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity:0; }
+.Trex:hover img{color: rgb(0, 0, 0);opacity:0.5;}
+.Trex:hover p{opacity:1;text-align: center;}
